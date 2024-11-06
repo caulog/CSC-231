@@ -87,7 +87,6 @@ public class DFSMTabular {
         // This variable is used for loops
         int index;
 
-        // TODO: UPDATE THIS VARIABLE TO REPRESENT THE NUMBER OF STATES IN YOUR MACHINE
         // This variable represents how many states are in the machine
         numberOfStates = 8;
 
@@ -101,7 +100,6 @@ public class DFSMTabular {
             acceptingStates.add(false);
         }
 
-        // TODO: UPDATE THE acceptingStates ARRAYLIST TO INDICATE THE FINAL STATES
         // USING acceptStates.set(???, true); REPLACING ??? WITH THE INTEGER ID OF ANY ACCEPTING STATE
         // Record which states are accepting
         acceptingStates.set(6, true);
@@ -111,7 +109,6 @@ public class DFSMTabular {
         // This 2-d array encodes the transitions/rules of the finite state machine
         table = new int[numberOfStates][numberOfAlphabetSymbols];
 
-        // TODO: UPDATE THIS SECTION, WRITING CODE SIMILAR TO WHAT IS COMMENTED TO REPRESENT THE
         // ASSOCIATION OF AN INTEGER RESULT STATE WITH A MOVE FROM THE CURRENT STATE
         // ON THE CURRENT INPUT
         // DO THIS FOR ALL STATE, INPUT PAIRS
